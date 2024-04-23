@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 
 def sayHello(request):
-    return render(request,'Hello.html')
+    return render(request,'Hello.html',{'name':'TamilEsh'})
